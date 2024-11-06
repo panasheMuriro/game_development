@@ -6,6 +6,11 @@
 - WebGL
 - Collision detection, Dynamic object instantiation
 
+## Bible verse scramble (Solo, Mobile)
+
+<img width="356" alt="image" src="https://github.com/user-attachments/assets/cc9ec321-8ad8-46c6-86d8-5ea7c934c142">
+
+
 ## Tag 3D Mobile Game Multiplayer
 ![Screenshot 2024-09-03 at 7 07 07 PM](https://github.com/user-attachments/assets/285f1628-40b5-4090-a70a-015568201749)
 
