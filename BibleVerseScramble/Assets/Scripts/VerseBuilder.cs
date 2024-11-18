@@ -34,10 +34,17 @@ public class VerseBuilder : MonoBehaviour
         }
 
  // Scale the object down to zero before destroying it
-        LeanTween.scale(other.gameObject, Vector3.zero, 0.3f).setEase(LeanTweenType.easeInBack).setOnComplete(() =>
-        {
-            Destroy(other.gameObject);
-        });
+        // // LeanTween.scale(other.gameObject, Vector3.zero, 0.3f).setEase(LeanTweenType.easeInBack).setOnComplete(() =>
+        // // {
+        //     Destroy(other.gameObject);
+        // // });
+
+        LeanTween.alpha(other.gameObject, 0f, 0.3f) // Fade out to 0 alpha over 0.3 seconds
+    .setEase(LeanTweenType.easeInOutQuad)   // You can change the easing type for a smoother transition
+    .setOnComplete(() =>
+    {
+        Destroy(other.gameObject);  // Destroy the object after fading out
+    });
 
         // Destroy(other.gameObject);
     }
@@ -46,14 +53,18 @@ public class VerseBuilder : MonoBehaviour
     private void StartBreathingAnimation()
     {
         // Reset the scale to normal before starting
-        gameObject.transform.localScale = Vector3.one;
+        gameObject.transform.localScale = new Vector3(.11f,.09f, 0f);
+
 
         // Animate scale to give a breathing effect
-        LeanTween.scale(gameObject, new Vector3(1.1f, 1.1f, 1.1f), 0.5f).setEase(LeanTweenType.easeInOutSine)
+        LeanTween.scale(gameObject, new Vector3(.12f, .11f,0f), 0.5f).setEase(LeanTweenType.easeInOutSine)
             .setOnComplete(() =>
             {
-                LeanTween.scale(gameObject, Vector3.one, 0.5f).setEase(LeanTweenType.easeInOutSine);
+                LeanTween.scale(gameObject, new Vector3(.11f,.09f, 0f), 0.5f).setEase(LeanTweenType.easeInOutSine);
             });
+
+
+            
     }
 
 

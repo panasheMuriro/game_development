@@ -1,0 +1,1995 @@
+Unity Editor version:    2022.3.39f1 (4e1b0f82c39a)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/panashe/workplace/game_development/ShoppingDash
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53024
+Successfully changed project path to: /Users/panashe/workplace/game_development/ShoppingDash
+/Users/panashe/workplace/game_development/ShoppingDash
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704652865472]  Target information:
+
+Player connection [140704652865472]  * "[IP] 10.0.0.182 [Port] 0 [Flags] 2 [Guid] 358305681 [EditorId] 358305681 [Version] 1048832 [Id] OSXEditor(0,Panashes-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704652865472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704652865472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 9.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/panashe/workplace/game_development/ShoppingDash/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.39f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.39f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.39f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004434 seconds.
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.442 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1664ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (57.3 KB). Loaded Objects now: 3672.
+Memory consumption went from 125.3 MB to 125.2 MB.
+Total: 5.605645 ms (FindLiveObjects: 0.423167 ms CreateObjectMapping: 0.218716 ms MarkObjects: 4.586724 ms  DeleteObjects: 0.373360 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.048 seconds
+Domain Reload Profiling: 1787ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1049ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (37.5 KB). Loaded Objects now: 3677.
+Memory consumption went from 129.4 MB to 129.3 MB.
+Total: 3.327513 ms (FindLiveObjects: 0.209435 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.824158 ms  DeleteObjects: 0.156442 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2128.193658 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6685bce48972444adef26de25d107d5d') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 111.106586 seconds.
+  path: Assets/SupermarketInterior_v2
+  artifactKey: Guid(8a8d1aaaaa9f54522b56fedc241e8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2 using Guid(8a8d1aaaaa9f54522b56fedc241e8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b2f63a294039f1063429addf38d0372') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.451922 seconds.
+  path: Assets/SupermarketInterior_v2/DemoScenes
+  artifactKey: Guid(b101b4d1e791f124899e1cc984c036a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/DemoScenes using Guid(b101b4d1e791f124899e1cc984c036a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '700884a05b58af1be8be5d5400ba9a8a') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.427251 seconds.
+  path: Assets/SupermarketInterior_v2/DemoScenes/Basic_walls_01.unity
+  artifactKey: Guid(c5e1e22f63ec0e94c89b29621f4e6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/DemoScenes/Basic_walls_01.unity using Guid(c5e1e22f63ec0e94c89b29621f4e6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c1e07b3c779ebad211b3b15d5104023') in 0.000778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.162029 seconds.
+  path: Assets/SupermarketInterior_v2/DemoScenes/Supermarket_01.unity
+  artifactKey: Guid(e8a38ce024bda0649bc6f5f575f35bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/DemoScenes/Supermarket_01.unity using Guid(e8a38ce024bda0649bc6f5f575f35bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3801be6f65b1f279e49e447f06cba8f') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.797 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (269.2 KB). Loaded Objects now: 3682.
+Memory consumption went from 135.2 MB to 135.0 MB.
+Total: 6.174671 ms (FindLiveObjects: 0.486386 ms CreateObjectMapping: 0.295219 ms MarkObjects: 4.765826 ms  DeleteObjects: 0.625528 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 353.103943 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs
+  artifactKey: Guid(be81448c2f1173c4cb6f103d3e33814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs using Guid(be81448c2f1173c4cb6f103d3e33814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'defa23b187fbe00a016dbb75ce846fa8') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.996555 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs
+  artifactKey: Guid(8e66fc892a2e345448599d6606c38bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs using Guid(8e66fc892a2e345448599d6606c38bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aac8ec04bf47092b3d2fa045e824e078') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067488 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_cart_01_group_01.prefab
+  artifactKey: Guid(aaf728dbbdd84ba42b625928e10330e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_cart_01_group_01.prefab using Guid(aaf728dbbdd84ba42b625928e10330e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2dadafea499c17d7edf6fd6315f9b6c0') in 0.434826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_01.prefab
+  artifactKey: Guid(3d2d291d750dc404fbdcba30088af05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_01.prefab using Guid(3d2d291d750dc404fbdcba30088af05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '520a8a97c7b9936594f15789cd9f3cb7') in 0.013037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_03_group_01.prefab
+  artifactKey: Guid(75ec0ca244d38bd40a669dd653015217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_03_group_01.prefab using Guid(75ec0ca244d38bd40a669dd653015217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4fab4a4fd34644edb6dda7881b06dbe6') in 0.289629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_01_group_01.prefab
+  artifactKey: Guid(487720b67fbb4bc4bb0ca1508acb7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_01_group_01.prefab using Guid(487720b67fbb4bc4bb0ca1508acb7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad7c2473de84af29a06a292ce0b9538a') in 0.009616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_01_group_03.prefab
+  artifactKey: Guid(9bb8ac1bddb12d24c8847f92c18d209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_01_group_03.prefab using Guid(9bb8ac1bddb12d24c8847f92c18d209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '712f377e455cc984962b4d70b662c47b') in 0.023698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_02.prefab
+  artifactKey: Guid(0f75431b52f992a4aa0144f6571b3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_02.prefab using Guid(0f75431b52f992a4aa0144f6571b3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c38bee9f975d1956f0d62231d141775b') in 0.023374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_04_group_01.prefab
+  artifactKey: Guid(0520bdc70aba8ed4fba4dd00cae7891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_04_group_01.prefab using Guid(0520bdc70aba8ed4fba4dd00cae7891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7c2c317e15c9a23ba7a2c1005f43a4e') in 0.028550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_02_group_02.prefab
+  artifactKey: Guid(50fc14ebb26ef6147973875acbafa6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_shelfs_02_group_02.prefab using Guid(50fc14ebb26ef6147973875acbafa6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9abcd2740f80be4e2353f61f3efd3a31') in 0.032762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_04.prefab
+  artifactKey: Guid(f038b4441f80df4499bac7c56181ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_ice_box_01_group_04.prefab using Guid(f038b4441f80df4499bac7c56181ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a015a9b03d974f2f4b2283f539234766') in 0.022750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_entrance_fence_01_group.prefab
+  artifactKey: Guid(c69f44b4faa69fe4bb01343f7bb927de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_entrance_fence_01_group.prefab using Guid(c69f44b4faa69fe4bb01343f7bb927de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8e7a0735dae5f3f70b05156bed51d1c') in 0.023764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 2.674962 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_information_01.prefab
+  artifactKey: Guid(e769752f148022640a1a222cab8fc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_information_01.prefab using Guid(e769752f148022640a1a222cab8fc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3791c0be1c4c78c433f2666ca7e5979') in 0.011133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_inner_wall_03_group.prefab
+  artifactKey: Guid(32c31e106992b3e49b246b68dd5d30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_inner_wall_03_group.prefab using Guid(32c31e106992b3e49b246b68dd5d30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f16db26b77b4132e1ebe51c07b748695') in 0.011890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_inner_wall_08_group.prefab
+  artifactKey: Guid(b76faf16ff26932438c2fe70acb8fc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_inner_wall_08_group.prefab using Guid(b76faf16ff26932438c2fe70acb8fc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '997dba418bf6b0cd5b6f5e7fe82a8977') in 0.024815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.149934 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_out_wall_03_group.prefab
+  artifactKey: Guid(170f82caf6a4dcf4fa0511e719214886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_out_wall_03_group.prefab using Guid(170f82caf6a4dcf4fa0511e719214886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6c6b03dc19c9603f5ae8992d39b117d') in 0.016624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_04.prefab
+  artifactKey: Guid(e9f24fec045c7334e973129b2eea2758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_04.prefab using Guid(e9f24fec045c7334e973129b2eea2758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c932ae722a329ccda81fe2900a67a71') in 0.009988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_03.prefab
+  artifactKey: Guid(0ab7aa2c115995142bb3b862088b0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_03.prefab using Guid(0ab7aa2c115995142bb3b862088b0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1f6786e4bae4f9aa98c58222265f521') in 0.023771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.964713 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_05.prefab
+  artifactKey: Guid(bc1a0de14e1f00b4aa7d3eb94c1f74a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_01_group_05.prefab using Guid(bc1a0de14e1f00b4aa7d3eb94c1f74a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc61d6d66fbeeea40f88121146178115') in 0.011002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_02_group_04.prefab
+  artifactKey: Guid(9e993adb845b03c4fbed9e4810755f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_02_group_04.prefab using Guid(9e993adb845b03c4fbed9e4810755f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '97d89b455f71c8cbcc27096c6a6e2d44') in 0.011475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_03_group_01.prefab
+  artifactKey: Guid(383f895849ca3254b9c79ea03b051757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_03_group_01.prefab using Guid(383f895849ca3254b9c79ea03b051757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e0676d0c45a7ac89c347c0cb3862616') in 0.020710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_02_group_03.prefab
+  artifactKey: Guid(dd4a44afdfc006a4c9c98e44f18ecde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Group_prefabs/PREF_shelfs_02_group_03.prefab using Guid(dd4a44afdfc006a4c9c98e44f18ecde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d22b1ca94b4ec9ae0b7394f0fd276b3') in 0.025067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 6.158603 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs
+  artifactKey: Guid(a4bf8823b730308469f2260096410508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs using Guid(a4bf8823b730308469f2260096410508) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d1a08b41f00ef5478ba59f4d7c6ff9f') in 0.000751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050524 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_atm_01.prefab
+  artifactKey: Guid(6f9742e7614cb6f4d8350e8218a72949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_atm_01.prefab using Guid(6f9742e7614cb6f4d8350e8218a72949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ad9abc206bfd9c45bce0098fdc52944') in 0.181976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_billboard_06.prefab
+  artifactKey: Guid(363ec1f12cc7ad046aa0e8120b9f0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_billboard_06.prefab using Guid(363ec1f12cc7ad046aa0e8120b9f0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6916f9326d07ef340a7908cd334cd268') in 0.016957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cash_out_door_01.prefab
+  artifactKey: Guid(84d3384bd06cb6f41a624d1d510f8c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cash_out_door_01.prefab using Guid(84d3384bd06cb6f41a624d1d510f8c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe16ba47995664715a5575f9579aaa0c') in 0.024552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_07.prefab
+  artifactKey: Guid(90b53d7c17feb0e46bbc04d944c90db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_07.prefab using Guid(90b53d7c17feb0e46bbc04d944c90db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '317593d2f8d30359f65a2c357ade073d') in 0.017909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_03.prefab
+  artifactKey: Guid(90269b6328632254db0615bd67045fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_03.prefab using Guid(90269b6328632254db0615bd67045fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9349699438452352848236a4009adcdb') in 0.017952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_04.prefab
+  artifactKey: Guid(f2a0e213ed1035e43a80015ac0b62dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_cashout_number_04.prefab using Guid(f2a0e213ed1035e43a80015ac0b62dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3631e9ce47078be757459fb52dc5df84') in 0.019560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.987798 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ceiling_01.prefab
+  artifactKey: Guid(f21af2fd0ac32694189dd8211c9176c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ceiling_01.prefab using Guid(f21af2fd0ac32694189dd8211c9176c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5712b823a2b3690680462b69bbe3b7c1') in 0.010081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_04.prefab
+  artifactKey: Guid(add7be843ff033e4faf9eb5777edb4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_04.prefab using Guid(add7be843ff033e4faf9eb5777edb4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b6581d33c6185de89ed9ead73fb194d') in 0.008743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_03.prefab
+  artifactKey: Guid(2a865c7c8d3dbb9448e31b9b48ef10ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_03.prefab using Guid(2a865c7c8d3dbb9448e31b9b48ef10ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac260be6685815ac5e775fbc37fa3849') in 0.024787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.051462 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_case_01.prefab
+  artifactKey: Guid(ccf90d281781c1f42a585bc39cf54511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_door_case_01.prefab using Guid(ccf90d281781c1f42a585bc39cf54511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '558f29db2baa86043175fb974cba54c4') in 0.016485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_04.prefab
+  artifactKey: Guid(48244b6b12ee42744909eb99f1afa386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_04.prefab using Guid(48244b6b12ee42744909eb99f1afa386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '83d1a750f7203e0ea4b1870f4c86228a') in 0.016203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_03.prefab
+  artifactKey: Guid(b458b5a55cf9f7844aed2a5b4539a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_03.prefab using Guid(b458b5a55cf9f7844aed2a5b4539a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9d9e15e899bd6a7ed64306d31d48c8d') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.053985 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_door_01.prefab
+  artifactKey: Guid(00345a3b156c2ed40a6bc3b9f05fbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_fence_door_01.prefab using Guid(00345a3b156c2ed40a6bc3b9f05fbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '78c607b872569aa62355edadeed07f8b') in 0.017017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_03.prefab
+  artifactKey: Guid(922aa1b5db3221d4b8edd5fe080296c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_03.prefab using Guid(922aa1b5db3221d4b8edd5fe080296c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b95f974c64941d50978447ee91b41a07') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_02.prefab
+  artifactKey: Guid(d71e3db4d7fc5b84f88839a7c8136302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_02.prefab using Guid(d71e3db4d7fc5b84f88839a7c8136302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84a56cf38fa42b894f1934b6257f108b') in 0.024277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_06.prefab
+  artifactKey: Guid(50f545d7af4d5434d82e36e41b9a4267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_06.prefab using Guid(50f545d7af4d5434d82e36e41b9a4267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be876bca04bc0e2fe6f4cfdf78fde329') in 0.017893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_09.prefab
+  artifactKey: Guid(301cb6f7db2350a40a55af9f6af81f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_09.prefab using Guid(301cb6f7db2350a40a55af9f6af81f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '093f3c8f948f16e28d2f1356e6c89843') in 0.024787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_07.prefab
+  artifactKey: Guid(c1dc8c7be27df5f49a9bd046d2d94f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_07.prefab using Guid(c1dc8c7be27df5f49a9bd046d2d94f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad8c5547022e8649eb7ec5f3c1f5bdac') in 0.017719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.076752 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_11.prefab
+  artifactKey: Guid(0399de76666b62c499db8b2775ebeee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_11.prefab using Guid(0399de76666b62c499db8b2775ebeee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce21a3ebb691f7675de1aaa7a536ca85') in 0.008123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_15.prefab
+  artifactKey: Guid(0f5fc54db98d1e147acdcb402d9f9f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_15.prefab using Guid(0f5fc54db98d1e147acdcb402d9f9f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f2f0a064d67fcd7854e6dde641224e6') in 0.008082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_14.prefab
+  artifactKey: Guid(ea7b79fe0405f7f47af46616f50791e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_14.prefab using Guid(ea7b79fe0405f7f47af46616f50791e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6e9988f3b64d1bd1471eb1b63456b67') in 0.017506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.946199 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_18.prefab
+  artifactKey: Guid(0e7123a5c1b1fcf46809c4959cd9106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_18.prefab using Guid(0e7123a5c1b1fcf46809c4959cd9106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '55f370ecac668674d6b1033e98623087') in 0.012595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_21.prefab
+  artifactKey: Guid(a661c29e57a26ea4a81cde6eba33d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_21.prefab using Guid(a661c29e57a26ea4a81cde6eba33d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '212b5f4f577bbf6e9bfa79093fa57e04') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_22.prefab
+  artifactKey: Guid(fef9d1d9f680c844990e9cd2fc5b3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_22.prefab using Guid(fef9d1d9f680c844990e9cd2fc5b3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2995bb083413db2198ce0e867a5af50') in 0.022601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.786096 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_24.prefab
+  artifactKey: Guid(f1c11a7310f6506459e6dd0841819c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_24.prefab using Guid(f1c11a7310f6506459e6dd0841819c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b73cfa00a15eef0ba37eecabc8aac754') in 0.012837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_29.prefab
+  artifactKey: Guid(7142e7a69e72f144fa4cea20ee111a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_29.prefab using Guid(7142e7a69e72f144fa4cea20ee111a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd7ec5e1d1f09478aed3cb7c6472f30c6') in 0.009819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_27.prefab
+  artifactKey: Guid(4eaab902dc4dc3443839e20103a09d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_27.prefab using Guid(4eaab902dc4dc3443839e20103a09d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4b88a71f3ea237a0550cb67b9e9a92b') in 0.022409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.062415 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_30.prefab
+  artifactKey: Guid(042eeaf3b59df70428b6e0e566bf6ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_30.prefab using Guid(042eeaf3b59df70428b6e0e566bf6ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f1679fe9a11d9cb76e8c2a0eac523abe') in 0.016844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_34.prefab
+  artifactKey: Guid(c4d25f553033295469451651f66e2125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_34.prefab using Guid(c4d25f553033295469451651f66e2125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '773c9724b8df0afde81e86b5ad972fd3') in 0.010012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_35.prefab
+  artifactKey: Guid(92441b93b8c45864fb8e4cb0d7646318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_35.prefab using Guid(92441b93b8c45864fb8e4cb0d7646318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6166d0951bf5db3bbed484562d12d07') in 0.022447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.164871 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_36.prefab
+  artifactKey: Guid(42d091fbcf240b644b6dff4a36833859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_36.prefab using Guid(42d091fbcf240b644b6dff4a36833859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab1f17c73ce3baa9aa2b0b06241ebd14') in 0.010374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_39.prefab
+  artifactKey: Guid(10171996127aecd4f8eee7cd8f05d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_39.prefab using Guid(10171996127aecd4f8eee7cd8f05d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c066ab69995851b479bd88e4250252ce') in 0.009047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_38.prefab
+  artifactKey: Guid(b9b9f6c89c3ef8f48ba6f6c58643c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_38.prefab using Guid(b9b9f6c89c3ef8f48ba6f6c58643c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cbcb040c06ed9de84d59c4f6bcded11c') in 0.020965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.244103 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_42.prefab
+  artifactKey: Guid(e9c59aa91b6d7a24b851e24b2e8fe6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_42.prefab using Guid(e9c59aa91b6d7a24b851e24b2e8fe6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '83651cd4fbdc28a64bdd89c9e2181e6e') in 0.011805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_45.prefab
+  artifactKey: Guid(0750268c35d31cc4baed6a07a1bdc349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_45.prefab using Guid(0750268c35d31cc4baed6a07a1bdc349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '735ef78ebe8c7eb36fa0fdd329c2ca6f') in 0.010827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_46.prefab
+  artifactKey: Guid(c35dcae766f8f9541af6c6b147887500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_46.prefab using Guid(c35dcae766f8f9541af6c6b147887500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd03e281916528a981f5022ddca72cb5a') in 0.022820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.866511 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_48.prefab
+  artifactKey: Guid(406d20ffd7436c7419caf1b23e78dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_food_48.prefab using Guid(406d20ffd7436c7419caf1b23e78dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34ab0ef8d14de65409c232d3f766594e') in 0.010936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_01_set_04.prefab
+  artifactKey: Guid(e9fd0bd78eef79745beae6f9e9769a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_01_set_04.prefab using Guid(e9fd0bd78eef79745beae6f9e9769a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1c51241929a032db8db54837a25e4c78') in 0.011965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_01_set_02.prefab
+  artifactKey: Guid(f4ca23677c3c98a40957d330dbceae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_01_set_02.prefab using Guid(f4ca23677c3c98a40957d330dbceae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4cbe23cf102a15b7183d40db48b0bd9b') in 0.022928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.450907 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_02.prefab
+  artifactKey: Guid(4bc843e6d787b7a4b849468dd77a5f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_02.prefab using Guid(4bc843e6d787b7a4b849468dd77a5f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e2389c778a0111c1ea1814fc49aeb02') in 0.011065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_02_set_04.prefab
+  artifactKey: Guid(48570fefde36528458df309bcb07fbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_02_set_04.prefab using Guid(48570fefde36528458df309bcb07fbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cfdd0153c344cb85bd6adb025fa9544f') in 0.008379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_03.prefab
+  artifactKey: Guid(fd4642f3664c2ef468313242d5a7653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_03.prefab using Guid(fd4642f3664c2ef468313242d5a7653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '777488cdbde83bedbb26bac2bd148949') in 0.021998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.496741 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_03_set_01.prefab
+  artifactKey: Guid(3b00358ee0548e34db351d1cf47d9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_03_set_01.prefab using Guid(3b00358ee0548e34db351d1cf47d9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20e0d6f040a89404a10a8ecc901cd752') in 0.010517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_door_01.prefab
+  artifactKey: Guid(a870bbe7f72b97646ba830177fe188e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_ice_shelfs_door_01.prefab using Guid(a870bbe7f72b97646ba830177fe188e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b2b1f183890fa0edf43d33bb61691d3') in 0.009929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01.prefab
+  artifactKey: Guid(17ea64ac316f29047893281ffdb4bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01.prefab using Guid(17ea64ac316f29047893281ffdb4bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c4b3d6a126761278ffa63fd1530aec8') in 0.022477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.048252 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01_set_02.prefab
+  artifactKey: Guid(c94d1d7a80c120e488f13d02051b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01_set_02.prefab using Guid(c94d1d7a80c120e488f13d02051b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c466ade5c11357b5d9f79a18a20afca4') in 0.015741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_01.prefab
+  artifactKey: Guid(8714231362575c94eaae0fb3372d1bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_01.prefab using Guid(8714231362575c94eaae0fb3372d1bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '18c8e5b4b695b99f2d54f3343d875dbd') in 0.009530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01_set_04.prefab
+  artifactKey: Guid(72564afc00460654e80f5c5e3bed084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_icebox_01_set_04.prefab using Guid(72564afc00460654e80f5c5e3bed084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f9d4592eb1a0fde367ec2b468b70949') in 0.022127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.611866 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_02.prefab
+  artifactKey: Guid(3c106431c1e1f4e4f83419c23e17cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_02.prefab using Guid(3c106431c1e1f4e4f83419c23e17cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27006229dff181673e9425f0f80a4182') in 0.013211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_06.prefab
+  artifactKey: Guid(9347fccfbdf4bf54abb73f54e8287c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_06.prefab using Guid(9347fccfbdf4bf54abb73f54e8287c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '073ddbba1acf234f65254341589bde75') in 0.009502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_08.prefab
+  artifactKey: Guid(12cdbe0df6c03d747954a1a3db90249d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_08.prefab using Guid(12cdbe0df6c03d747954a1a3db90249d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31d676c984f0b7b31210d89bdfe297b1') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.706155 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_09.prefab
+  artifactKey: Guid(fab44fffb0d294344b284f5706a48e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_inner_wall_09.prefab using Guid(fab44fffb0d294344b284f5706a48e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a302c4546441b19ad89f6491acd6a076') in 0.010548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_02.prefab
+  artifactKey: Guid(ff081190b737ad04faf5793b1b68b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_02.prefab using Guid(ff081190b737ad04faf5793b1b68b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23c4749495bd03de85b2e396aa3651d9') in 0.010395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_03.prefab
+  artifactKey: Guid(595f2d74664a36344b8277add5359d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_03.prefab using Guid(595f2d74664a36344b8277add5359d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '092028d0d45ea4ba5156259f7d141346') in 0.023234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.477533 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_05.prefab
+  artifactKey: Guid(cb24d3d06f377ec42bc424616533541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_out_wall_05.prefab using Guid(cb24d3d06f377ec42bc424616533541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11b068361759c18f36b3dabcf9b9a62c') in 0.010795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_package_02.prefab
+  artifactKey: Guid(d522b4d78b891844a96383258322eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_package_02.prefab using Guid(d522b4d78b891844a96383258322eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '305d00de85d78e96a6528c9e382adfeb') in 0.008879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_package_04.prefab
+  artifactKey: Guid(86bfce62cbf4be3429fbe40be6306cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_package_04.prefab using Guid(86bfce62cbf4be3429fbe40be6306cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42979a0f0df07920e53a45140a8d80c0') in 0.030205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.616793 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_01.prefab
+  artifactKey: Guid(f3b26781ae044fc43a78ebfadef682f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_01.prefab using Guid(f3b26781ae044fc43a78ebfadef682f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43137d5aa20e4149e51e7da3c3ecfb28') in 0.010678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_04.prefab
+  artifactKey: Guid(8410c5e2af9eb5e4b88a859733ae8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_04.prefab using Guid(8410c5e2af9eb5e4b88a859733ae8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '269091d9ebc0fccadb73eaeae306010f') in 0.011367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_05.prefab
+  artifactKey: Guid(e0825b1ab1c0ec540956732cd05101d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_05.prefab using Guid(e0825b1ab1c0ec540956732cd05101d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a447e86de46a07aa7c487c027ed3b718') in 0.020120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.039903 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_07.prefab
+  artifactKey: Guid(df1687b961e3c934ab22169ea341c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_price_07.prefab using Guid(df1687b961e3c934ab22169ea341c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2d8fa40ab4428ff5bd9b9fae1ede260') in 0.010965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_roof_02.prefab
+  artifactKey: Guid(8865bdd00dfe755429ceb071a616a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_roof_02.prefab using Guid(8865bdd00dfe755429ceb071a616a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '871b701db61176e792394e338da1f11b') in 0.007985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01.prefab
+  artifactKey: Guid(0273f3f4d8ab9f340ae696c1799afa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01.prefab using Guid(0273f3f4d8ab9f340ae696c1799afa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd80567501412395a0d69f72eb408d8c') in 0.018270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.143881 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01_set_01.prefab
+  artifactKey: Guid(97ed300938ab3f44680e82be3eb00194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01_set_01.prefab using Guid(97ed300938ab3f44680e82be3eb00194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1937130fd36097afc3d2678a26a07034') in 0.012575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02.prefab
+  artifactKey: Guid(4e692fc2d900a6f4f9f1cc438837155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02.prefab using Guid(4e692fc2d900a6f4f9f1cc438837155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2944e28da6f91f696bfa480b922cb5ec') in 0.008482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01_set_05.prefab
+  artifactKey: Guid(a29a7a881961c3a42bec4257f2cd44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_01_set_05.prefab using Guid(a29a7a881961c3a42bec4257f2cd44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ae1da43d673f3c751e6ced58c56f29b') in 0.025145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.583881 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_01.prefab
+  artifactKey: Guid(bea5f47a8d842054597d514b5e5301ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_01.prefab using Guid(bea5f47a8d842054597d514b5e5301ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57d5cfd9881e5b12bc96e102748ac525') in 0.011263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_staff_shelfs_01.prefab
+  artifactKey: Guid(664d2fad8880fc54babda8116b21a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_staff_shelfs_01.prefab using Guid(664d2fad8880fc54babda8116b21a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c1c4c6a9a46e6f6510df4a85156d1e0') in 0.009485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_03.prefab
+  artifactKey: Guid(8e2a0dd31e1ed0f4c9a70f3888ef4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_03.prefab using Guid(8e2a0dd31e1ed0f4c9a70f3888ef4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ef9b0cde30be8cb2b50143a6ab6e06f') in 0.010684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_04.prefab
+  artifactKey: Guid(89646a7cb56f00e4c8ff7e3ecf6d6ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_shelfs_02_set_04.prefab using Guid(89646a7cb56f00e4c8ff7e3ecf6d6ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '732334d5cf19c4c9b3ba3b48033c0e93') in 0.020224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.862792 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_top_lamp_02.prefab
+  artifactKey: Guid(68f62398923340145afa5d7d473e74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_top_lamp_02.prefab using Guid(68f62398923340145afa5d7d473e74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '846c11fc9dfe319228c7af155077f947') in 0.134403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.075732 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_venting_02.prefab
+  artifactKey: Guid(586290a22e4810245be329cca5a5c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_venting_02.prefab using Guid(586290a22e4810245be329cca5a5c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a08500ba5559c1f07da166a4c773196') in 0.015331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_venting_04.prefab
+  artifactKey: Guid(e85c19f905a1a9e4c920857a602fc975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Prefabs/Simple_prefabs/PREF_venting_04.prefab using Guid(e85c19f905a1a9e4c920857a602fc975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c731a7af3dcfc360420d9184e384ad3a') in 0.017143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.262607 seconds.
+  path: Assets/SupermarketInterior_v2/Models
+  artifactKey: Guid(0e5a1506a1732d247b7b91ee0c1fcbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models using Guid(0e5a1506a1732d247b7b91ee0c1fcbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0498f0bad465f2e493ff7860f8839f19') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060997 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_atm_01.fbx
+  artifactKey: Guid(a3d17c44fc9806c4393d09df28a89137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_atm_01.fbx using Guid(a3d17c44fc9806c4393d09df28a89137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '402400b6f03576724e1b31bcf3672383') in 0.188329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_billboard_03.fbx
+  artifactKey: Guid(bd62f7702be23274599343c819210431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_billboard_03.fbx using Guid(bd62f7702be23274599343c819210431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3f8ae793bc14eb000561717de68ff26') in 0.034952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_cashout_number_05.fbx
+  artifactKey: Guid(ed1047053b9ef3544aa784d61c09a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_cashout_number_05.fbx using Guid(ed1047053b9ef3544aa784d61c09a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7ea46ab901be17f77a204252c1b4384') in 0.027535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_cashout_number_06.fbx
+  artifactKey: Guid(0beb36168dd57e74c99b584aacc6325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_cashout_number_06.fbx using Guid(0beb36168dd57e74c99b584aacc6325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b42ea93cb9f412979f50e7e7fc99f34') in 0.017952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_cashout_number_08.fbx
+  artifactKey: Guid(294339d153978854ca8abd62c7c0a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_cashout_number_08.fbx using Guid(294339d153978854ca8abd62c7c0a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '703ece6ddc3f73bbc5ee78c57aedf6d8') in 0.031243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_billboard_06.fbx
+  artifactKey: Guid(ef28994dcd83b174a9aa3bcd50cd5366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_billboard_06.fbx using Guid(ef28994dcd83b174a9aa3bcd50cd5366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c23c9b701ebfb7e68b1d310d62abfa50') in 0.029084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_billboard_02.fbx
+  artifactKey: Guid(aa213b8bd0569f942b18f8f536bb83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_billboard_02.fbx using Guid(aa213b8bd0569f942b18f8f536bb83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d58fecab284533797052965f08afa65') in 0.029429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.371634 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_cashout_number_09.fbx
+  artifactKey: Guid(99500b24d181136409dbd9f181d33caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_cashout_number_09.fbx using Guid(99500b24d181136409dbd9f181d33caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd8f4292dbeeb6faca973c0d31b61eca5') in 0.017124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_door_03.fbx
+  artifactKey: Guid(cfce1ce880010854a9424d404a5df1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_door_03.fbx using Guid(cfce1ce880010854a9424d404a5df1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '85be2d6fdcac7fec4fe270dd4bf17126') in 0.027370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_door_02.fbx
+  artifactKey: Guid(b4b44693b0b66044db98199290dd1dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_door_02.fbx using Guid(b4b44693b0b66044db98199290dd1dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b0107a7d5556d16e64dd41c96387fc5') in 0.025820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.075296 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_door_04.fbx
+  artifactKey: Guid(1e916fcc5d6a6294ea91a01f817f756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_door_04.fbx using Guid(1e916fcc5d6a6294ea91a01f817f756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cc5a8a6ea3c047f4bbb895684e9be1a1') in 0.024613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_fence_02.fbx
+  artifactKey: Guid(a0b57c75ec667654da3fb8b417b4aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_fence_02.fbx using Guid(a0b57c75ec667654da3fb8b417b4aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe2c6859d80cbc9ea95ee4774e4bd62d') in 0.027957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_fence_04.fbx
+  artifactKey: Guid(643fc06cd481b5a44bcb7d387d194daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_fence_04.fbx using Guid(643fc06cd481b5a44bcb7d387d194daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16f80df94c9ac55b479e1e45c18266a2') in 0.042164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.033722 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_fence_05.fbx
+  artifactKey: Guid(f1c21609250679444a8bad1657ff0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_fence_05.fbx using Guid(f1c21609250679444a8bad1657ff0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21676331840eda72ec36fc3dad0c6382') in 0.029816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_03.fbx
+  artifactKey: Guid(e517808da6730ea4d980e0ab31c332c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_03.fbx using Guid(e517808da6730ea4d980e0ab31c332c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76abc8582c3e56ff015abf757e894b69') in 0.028899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_floor_01.fbx
+  artifactKey: Guid(6969dc395c72f5d4d925c8196d4b8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_floor_01.fbx using Guid(6969dc395c72f5d4d925c8196d4b8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34dfa50f0bd7333f744a7b8162548013') in 0.040239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.551936 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_04.fbx
+  artifactKey: Guid(d813776712fb6ef47aa77a86bb072863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_04.fbx using Guid(d813776712fb6ef47aa77a86bb072863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e45312b177810167b91be388a67668c3') in 0.016411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_08.fbx
+  artifactKey: Guid(b61323ab199fb194089b9f1d15582f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_08.fbx using Guid(b61323ab199fb194089b9f1d15582f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6aa257c1fe5a4a5cbd5b56bc7fa0aa63') in 0.018594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_09.fbx
+  artifactKey: Guid(e06a87e1674a43c41860fde1e1c68a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_09.fbx using Guid(e06a87e1674a43c41860fde1e1c68a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1bdfb7370a2f89cd5888717b963c8fd9') in 0.030553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.054043 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_10.fbx
+  artifactKey: Guid(8816497d67b29e64bb8528656e4a0466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_10.fbx using Guid(8816497d67b29e64bb8528656e4a0466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c24ae44ceca1bed7ef32f5890581922') in 0.025338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_16.fbx
+  artifactKey: Guid(1dc72f6df22e6044a9ce9e79f7311591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_16.fbx using Guid(1dc72f6df22e6044a9ce9e79f7311591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4e36f08b69bce43c73f75502801be00d') in 0.015744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_15.fbx
+  artifactKey: Guid(648715a71b7012a4b999d368f5aab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_15.fbx using Guid(648715a71b7012a4b999d368f5aab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b4f9eaf391e1ca92c2569fd2d69cbe4') in 0.031712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.751556 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_17.fbx
+  artifactKey: Guid(705eefe7823fece4da721bc43200edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_17.fbx using Guid(705eefe7823fece4da721bc43200edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '888d3316f01dc473f5b236e0cd1c2b1f') in 0.015569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_20.fbx
+  artifactKey: Guid(a0686ba1300a78e4db4fc4b0ab1361c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_20.fbx using Guid(a0686ba1300a78e4db4fc4b0ab1361c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79663f6f7b4bfcbc14938d451d865dcf') in 0.014900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_22.fbx
+  artifactKey: Guid(8fb88e7f01ced624e9823fb7bdbd5635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_22.fbx using Guid(8fb88e7f01ced624e9823fb7bdbd5635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '237a5fdc6168c85f59ad5ee444de486a') in 0.027312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.694794 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_23.fbx
+  artifactKey: Guid(8daa85c3e0d5c5147a7051725e757f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_23.fbx using Guid(8daa85c3e0d5c5147a7051725e757f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '510ac06324778f6c376db83cca479474') in 0.019693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_27.fbx
+  artifactKey: Guid(05a07309050425c4f9a7c5d8d5ebaa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_27.fbx using Guid(05a07309050425c4f9a7c5d8d5ebaa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd29400a97d09a95b3b94fbb657c29dad') in 0.030925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_28.fbx
+  artifactKey: Guid(34236457c719aba4fac2ac1b0928d8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_28.fbx using Guid(34236457c719aba4fac2ac1b0928d8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ceba70c1fc22213335fe3f41eaf8a64c') in 0.044554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.051709 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_29.fbx
+  artifactKey: Guid(45f10e6e7638af742b49f8aa391a48e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_29.fbx using Guid(45f10e6e7638af742b49f8aa391a48e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11b0ab8635b732cc0244315d6f105195') in 0.018777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_31.fbx
+  artifactKey: Guid(8ec1fd835e0d63045adda2fb9c75b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_31.fbx using Guid(8ec1fd835e0d63045adda2fb9c75b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc9c40cb92836acbbc075914b84dd5f0') in 0.030927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_32.fbx
+  artifactKey: Guid(5865aafe83f4d954fbb70d147cdfd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_32.fbx using Guid(5865aafe83f4d954fbb70d147cdfd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a5548c169612b868048bd1fcf97402c') in 0.041410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.072488 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_35.fbx
+  artifactKey: Guid(d4486a70eca7abe4a893e3a0c9746edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_35.fbx using Guid(d4486a70eca7abe4a893e3a0c9746edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '111b149fae378eee9bf3ed7b4df1e810') in 0.026207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_39.fbx
+  artifactKey: Guid(a07edde051705c64faf3de7cae93be84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_39.fbx using Guid(a07edde051705c64faf3de7cae93be84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '169d7f5a971105d02ff797b473825db7') in 0.029977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_40.fbx
+  artifactKey: Guid(2e5f2e2ca3ce1af4f90331d385c75bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_40.fbx using Guid(2e5f2e2ca3ce1af4f90331d385c75bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '67580974c50fa2328f4a7bf8e5f5894c') in 0.039122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.316222 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_41.fbx
+  artifactKey: Guid(d28dcf1032a859c45805b35ca554ef80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_41.fbx using Guid(d28dcf1032a859c45805b35ca554ef80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c272f63f7714e06012b06bbe9aa752e') in 0.018247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_45.fbx
+  artifactKey: Guid(b513ebe4b2ee80d4c8e5d2e498d03c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_45.fbx using Guid(b513ebe4b2ee80d4c8e5d2e498d03c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b584160c04a0fb754e6bc0c8bd3f36a7') in 0.031141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_46.fbx
+  artifactKey: Guid(34a29fdcace9ac840b5d7943a441d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_46.fbx using Guid(34a29fdcace9ac840b5d7943a441d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0165367ebfc381358676d040d99c4959') in 0.038235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.046161 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_food_47.fbx
+  artifactKey: Guid(4534cb77b662d09448223df7282a5d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_food_47.fbx using Guid(4534cb77b662d09448223df7282a5d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9f6c7dbbc13e842ebc1eb6820dfdd26') in 0.019867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_01_set_02.fbx
+  artifactKey: Guid(3e9d27ba614a996418049c23709abdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_01_set_02.fbx using Guid(3e9d27ba614a996418049c23709abdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c53c9c9fa0c4d71afcb3e108f3bb24f') in 0.017464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_03.fbx
+  artifactKey: Guid(a66f8da6f551b074fa97cf91093e196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_03.fbx using Guid(a66f8da6f551b074fa97cf91093e196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e691fdb027500083c320576933a3c16d') in 0.031019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_01_set_03.fbx
+  artifactKey: Guid(9719427db43228e4988016a81d5b8e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_01_set_03.fbx using Guid(9719427db43228e4988016a81d5b8e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a5860e317d082c1d0a9d0140ed9d312') in 0.030441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_02.fbx
+  artifactKey: Guid(12757150471da4645934a883ae5e9bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_02.fbx using Guid(12757150471da4645934a883ae5e9bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3624935b645b86ea74d9b6a0b3ce8159') in 0.046512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_03_set_03.fbx
+  artifactKey: Guid(c069ae3f715cb57418d2f5476ca7b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_03_set_03.fbx using Guid(c069ae3f715cb57418d2f5476ca7b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35e023e8718ba76a8b6af20bcc31dee9') in 0.029398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_03_set_02.fbx
+  artifactKey: Guid(ec85a5a218578d844be5d9bf76978229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_03_set_02.fbx using Guid(ec85a5a218578d844be5d9bf76978229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74aa166282ad43a6b526494664dc216b') in 0.041272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_04.fbx
+  artifactKey: Guid(828b805f921a1024885c5dee30d1c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_04.fbx using Guid(828b805f921a1024885c5dee30d1c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4652d316ce363c639de45b19855fb96c') in 0.045293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_01.fbx
+  artifactKey: Guid(7ab308c199c4223409498b2532861b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_02_set_01.fbx using Guid(7ab308c199c4223409498b2532861b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a8418c2aa216b5143dffb25bb5c4202') in 0.027748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.666202 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_door_01.fbx
+  artifactKey: Guid(22dbbb4da72b3c54a8fc28fc799127de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_ice_shelfs_door_01.fbx using Guid(22dbbb4da72b3c54a8fc28fc799127de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f397d607edaf583315a8b6625ff70a2a') in 0.019202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_icebox_01_set_01.fbx
+  artifactKey: Guid(0b0ee169893ee1a49afd8501c4344488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_icebox_01_set_01.fbx using Guid(0b0ee169893ee1a49afd8501c4344488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31507b4525a06b0cef81175a096f52cc') in 0.018346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_icebox_01_set_02.fbx
+  artifactKey: Guid(0e340308c9541ef4080120bf0322585d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_icebox_01_set_02.fbx using Guid(0e340308c9541ef4080120bf0322585d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00426eddeba2351c9c793308fe71ffe2') in 0.024681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.022325 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_information_01.fbx
+  artifactKey: Guid(85c8b8f73db889746a89bcee04fe359e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_information_01.fbx using Guid(85c8b8f73db889746a89bcee04fe359e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94f8ea5506dfe8e09e2c26211ca123e5') in 0.027929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_inner_column_01.fbx
+  artifactKey: Guid(e03be115c0b2e76449f4dfc375cd2b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_inner_column_01.fbx using Guid(e03be115c0b2e76449f4dfc375cd2b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54be124e4f413db1391bec3d1ba38fc6') in 0.038984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_inner_wall_01.fbx
+  artifactKey: Guid(cc80aa79e0a8f4546b5e23243bd7a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_inner_wall_01.fbx using Guid(cc80aa79e0a8f4546b5e23243bd7a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db396bd3b73f5dff617388886da5d12e') in 0.024066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_inner_wall_03.fbx
+  artifactKey: Guid(aeaab7f4bf16ef549bccd101d878c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_inner_wall_03.fbx using Guid(aeaab7f4bf16ef549bccd101d878c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c078ecaa4ea7ef6c1459c888f304f7fd') in 0.039063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_lift_01.fbx
+  artifactKey: Guid(4fa309ed1aeeaf14ab28167c533a6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_lift_01.fbx using Guid(4fa309ed1aeeaf14ab28167c533a6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b64b423bae3c07a8e9956b79cb4465b4') in 0.039636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_out_wall_04.fbx
+  artifactKey: Guid(d640e9046617ca64dacc951fe9fdff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_out_wall_04.fbx using Guid(d640e9046617ca64dacc951fe9fdff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a2b1df2a432b5ee76ace316697784e6') in 0.044694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_out_wall_01.fbx
+  artifactKey: Guid(f554f229b8af750419573b7d92022573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_out_wall_01.fbx using Guid(f554f229b8af750419573b7d92022573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64e3e226a22323fc0a287415c0462f9d') in 0.040651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_out_wall_02.fbx
+  artifactKey: Guid(395823f28e0283c4086c1270a5afa47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_out_wall_02.fbx using Guid(395823f28e0283c4086c1270a5afa47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '02d57cb3dcdaf1414dbc46cf6ddd79b6') in 0.045253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SupermarketInterior_v2/Models/mesh_out_wall_03.fbx
+  artifactKey: Guid(92cebc124f1bc8641ac8726a0bf819fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SupermarketInterior_v2/Models/mesh_out_wall_03.fbx using Guid(92cebc124f1bc8641ac8726a0bf819fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0fb1152de82c7b8dc9edbba6a086c3a3') in 0.026286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
