@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
 
         float moveX = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveX * 2f, rb.velocity.y);
+        rb.velocity = new Vector2(moveX * 3f, rb.velocity.y);
         Jump();
     }
 
